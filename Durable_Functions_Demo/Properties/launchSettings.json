@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "03_Durable_Functions": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
