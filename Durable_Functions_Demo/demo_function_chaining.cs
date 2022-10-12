@@ -26,7 +26,7 @@ namespace Durable_Functions_Demo
             // Replace "hello" with the name of your Durable Activity Function.
             outputs.Add(await context.CallActivityAsync<string>("function_chaining_demo_Hello", "New Delhi"));
             outputs.Add(await context.CallActivityAsync<string>("function_chaining_demo_Hello", "Mumbai"));
-            outputs.Add(await context.CallActivityAsync<string>("function_chaining_demo_Hello", "Kolkata"));
+            outputs.Add(await context.CallActivityAsync<string>("function_chaining_demo_Hello", "Chennai"));
             outputs.Add(await context.CallActivityAsync<string>("function_chaining_demo_Hello_User", _input_param));
 
             // returns ["Hello Tokyo!", "Hello Seattle!", "Hello London!"]
